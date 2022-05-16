@@ -2,16 +2,11 @@ font-face {
     src: url(ZenLoop-Italic.ttf);
     font-family:'Sensation';
     src: url(assets\SensationandQualities) format('truetype');
+    font-family: 'Sensations and Qualities', sans-serif;
 }
 
 font-face {
-    font-family: 'OpenSans';
-    src: url(assets\OpenSans);
-}
-
-body {
-    font-family: 'OpenSans', sans-serif;
-    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
