@@ -1,12 +1,12 @@
 @font-face {
     src: url(ZenLoop-Italic.ttf);
     font-family:'Sensation';
-    src: url(assets/Sensations\ and\ Qualities.ttf) format('truetype');
+    src: url(HechoPorMy\assets\SensationsandQualities.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'OpenSans';
-    src: url(assets/OpenSans.ttf);
+    src: url(HechoPorMy\assets\OpenSans.ttf);
 }
 
 #cabecalo {
