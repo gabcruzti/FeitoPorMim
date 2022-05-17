@@ -1,6 +1,7 @@
+html body{
+    margin: 0;
+    padding: 0;
 
-body {
-    font-family: 'Open Sans', sans-serif;
 }
 
 #pix {
@@ -9,8 +10,8 @@ body {
     font-size: 15px;
     text-align: center;
     width: 100%;
-    height: 30px;
-    background-color: #00b7ff;
+    background-color: #c0a9e2;
+    height: 26px;
     position: fixed;
 }
 
@@ -18,32 +19,81 @@ body {
     display:grid;
     grid-template-columns: 70% 15% 15%;
     font-family:'Sensation';
-    color:#c0a9e2;
-    
+    color:#00b7ff;
     width: 100%;
     height: 95px;
     background-color: #fff;
     margin-top: 0%;
     
+}
+
+body {
+    font-family: 'OpenSans', sans-serif;
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.03em;
+    line-height: 1.6    ;
+}
+
+#container {
+    width: 100%;
+    height: 850px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: auto;
+}
+
+#container .produto {
+    width: 300px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 50px 40px;
+    text-align: center;
+    transition: all 0.25s;
+
+} 
+
+#container .produto:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
     
 }
 
-.produtos:hover {
-    border: 2px solid #00b7ff;
+#container .produto img {
+    width: 280px;
+    height: 240px;
 }
 
-.artistas:hover {
-    border: 2px solid #00b7ff;
+#container .produto h4 {
+    font-weight: 600;
+    font-family: 'OpenSans';
+
+}
+
+#container .produto h6 {
+    font-weight: 500;
+    font-family: 'OpenSans';
+}
+
+#container .produto a {
+    font-weight: 200;
+    text-decoration: none;
+    color: #3498db;
+    font-family: 'OpenSans'; 
+    font-size: small;   
 }
 
 
-.logo {
+.pageprodutos {
     font-family:'Sensation';
     font-size: 80px;
     margin-left: 1cm;         
 }
 
-.produtos {
+.wishes {
     font-family:'Sensation';
     font-size: 60px;    
     top: 0; 
@@ -51,7 +101,7 @@ body {
       
 }
 
-.artistas {
+.carrinho {
     font-family:'Sensation';
     font-size: 60px;    
     top: 0; 
@@ -60,38 +110,6 @@ body {
 }     
 
 
-body {
-    background-color: #fff;
-    width: 100%;
-    margin-top: 1%;
-}
-
-.portadaHer {
-    width: 90%;
-    text-align: center;
-}
-
-.grid {
-    display:grid;
-    grid-template-columns: 45% 45%;
-}
-.grid div {
-    
-    font-family:'Sensation';
-    color: #fff;
-    font-size: 70px;
-   
-    background-color: #c0a9e2;
-    text-align: center;
-    
-    margin: 50px;
-    line-height: 150px;
-    border: 5em;
-}
-
-.grid div:hover {
-    border: 2px solid #00b7ff;
-}
 
 footer {
 width: 100%;
@@ -102,6 +120,7 @@ text-emphasis-color: #fff;
 padding: 1em;
 font-family: 'OpenSans';
 color: #fff;
+
 
  }
 #botao-wsp {
