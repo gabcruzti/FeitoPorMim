@@ -1,14 +1,10 @@
-font-face {
-    src: url(ZenLoop-Italic.ttf);
-    font-family:'Sensation';
-    src: url(assets\SensationandQualities) format('truetype');
+header {
     font-family: 'Sensations and Qualities', sans-serif;
 }
 
-font-face {
+body {
     font-family: 'Open Sans', sans-serif;
 }
-
 
 #cabecalo {
     display:grid;
