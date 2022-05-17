@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color:#EEE;
+    background-color:#fff;
     font-family:'Lato', Helvetica, Arial;
     font-size:15px;
     display:flex;
@@ -23,10 +23,11 @@ header {
     top:0;
     right:0;
     height:60px;
-    background-color:#d32f2f;
+    background-color:#c0a9e2;
     display:flex; /* none; */
     justify-content:space-between; /* flex-end; */
     align-items: center;
+    
 }
 
 header h1 {
