@@ -1,12 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Hepta+Slab:400,700|Lato:400,700&display=swap');
+
+
+@font-face {
+     font-family:'Sensation';
+    src: url(assets/Sensations\ and\ Qualities.ttf) format('truetype');
+}
+            
+@font-face {
+    font-family: 'OpenSans';
+    src: url(assets/OpenSans.ttf);
+}
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-color:#fff;
-    font-family:'Lato', Helvetica, Arial;
+    background-color: #e8cff3;
+    font-family: 'Sensation';
     font-size:15px;
     display:flex;
     margin:0;
@@ -22,17 +32,21 @@ header {
     left:0;
     top:0;
     right:0;
-    height:60px;
-    background-color:#c0a9e2;
+    height:70px;
+    background-color:#fff;
     display:flex; /* none; */
     justify-content:space-between; /* flex-end; */
     align-items: center;
-    
+    font-family:'Sensation';
 }
 
 header h1 {
     margin-left: 1rem;
-    color: #fff;
+    color: #c0a9e2;
+    font-family: 'Sensation';
+    font-size: 70px;
+    font-weight: normal;
+    
 }
 
 .menu-openner {
@@ -58,7 +72,7 @@ header h1 {
 aside {
     background-color:#ffcdd2;
     width:0vw;
-    font-family:'Hepta Slab', Helvetica, Arial;
+    font-family: 'OpenSans';
     transition:all ease .2s;
     overflow-x:hidden;
 }
@@ -80,11 +94,15 @@ main {
     flex:1;
     padding:20px;
     margin-top:60px;
+    font-family:'Sensation';
 }
 
-h1, h2 {
-    font-family:'Hepta Slab', Helvetica, Arial;
+h2 {
+    font-family:'Sensation';
     text-align: center;
+    font-size: 70px;
+    font-weight: normal;
+    color: #0067ff  ;
 }
 
 .pizza-area {
@@ -95,7 +113,8 @@ h1, h2 {
 .pizza-item {
     text-align: center;
     max-width:250px;
-    font-family:'Hepta Slab', Helvetica, Arial;
+    font-family: 'OpenSans';
+    color: #0067ff;
     margin:0 auto 50px auto;
 }
 
@@ -145,8 +164,8 @@ h1, h2 {
 
 .pizza-item--name {
     font-size:20px;
-    font-weight: bold;
-    color:#000;
+    font-family: 'OpenSans';
+    color: #0067ff;
     margin-top:5px;
 }
 
