@@ -1,98 +1,98 @@
 let pizzaJson = [
     {
         id: 1,
-        name: 'Caneca Cerâmica',
-        img: 'images/caneca.png',
+        name: 'Escudo Peruano',
+        img: 'images/1.png',
         price: [20.00, 23.00, 25.00],
         sizes: [
           '',
           '',
           ''
         ],
-        description: 'Caneca personalizada'
+        description: 'Escudo Peruano'
       },
       {
         id: 2,
-        name: 'Caneca Cerâmica',
-        img: 'images/caneca.png',
+        name: 'HER',
+        img: 'images/2.png',
         price: [20.00, 23.00, 25.00],
         sizes: [
           '',
           '',
           ''
         ],
-        description: 'Caneca personalizada'
+        description: 'HER'
       },
       {
         id: 3,
-        name: 'Caneca Cerâmica',
-        img: 'images/caneca.png',
+        name: 'Lisa',
+        img: 'images/3.png',
         price: [20.00, 23.00, 25.00],
         sizes: [
           '',
           '',
           ''
         ],
-        description: 'Caneca personalizada'
+        description: 'Lisa'
       },
       {
         id: 4,
-        name: 'Caneca Cerâmica',
-        img: 'images/caneca.png',
+        name: 'Lisa estudante',
+        img: 'images/4.png',
         price: [20.00, 23.00, 25.00],
         sizes: [
           '',
           '',
           ''
         ],
-        description: 'Caneca personalizada'
+        description: 'Lisa estudante'
       },
       {
         id: 5,
-        name: 'Caneca Cerâmica',
-        img: 'images/caneca.png',
+        name: 'Mickey Mágico',
+        img: 'images/5.png',
         price: [20.00, 23.00, 25.00],
         sizes: [
           '',
           '',
           ''
         ],
-        description: 'Caneca personalizada'
+        description: 'Mickey Mágico'
       },
       {
         id: 6,
-        name: 'Caneca Cerâmica',
-        img: 'images/caneca.png',
+        name: 'Vai dar tudo certo',
+        img: 'images/6.png',
         price: [20.00, 23.00, 25.00],
         sizes: [
           '',
           '',
           ''
         ],
-        description: 'Caneca personalizada'
+        description: 'Vai dar tudo certo'
       },
       {
         id: 7,
-        name: 'Caneca Cerâmica',
-        img: 'images/caneca.png',
+        name: 'Mickey',
+        img: 'images/7.png',
         price: [20.00, 23.00, 25.00],
         sizes: [
           '',
           '',
           ''
         ],
-        description: 'Caneca personalizada'
+        description: 'Mickey'
       },
       {
         id: 8,
-        name: 'Caneca Cerâmica',
-        img: 'images/caneca.png',
+        name: 'Popeye',
+        img: 'images/8.png',
         price: [20.00, 23.00, 25.00],
         sizes: [
           '',
           '',
           ''
         ],
-        description: 'Caneca personalizada'
+        description: 'Popeye'
       }
 ];
