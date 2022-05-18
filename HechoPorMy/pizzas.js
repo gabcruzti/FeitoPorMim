@@ -13,7 +13,7 @@ let pizzaJson = [
       },
       {
         id: 2,
-        name: 'HER',
+        name: 'Her',
         img: 'images/2.png',
         price: [20.00, 23.00, 25.00],
         sizes: [
@@ -21,7 +21,7 @@ let pizzaJson = [
           '',
           ''
         ],
-        description: 'HER'
+        description: 'Her'
       },
       {
         id: 3,

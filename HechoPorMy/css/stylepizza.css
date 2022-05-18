@@ -52,7 +52,7 @@ header h1 {
 .menu-openner {
     margin-right: 15px;
     font-size: 26px;
-    background-color: #ef9a9a;
+    background-color: #ffa4d8;
     padding: 5px 20px;
     border-radius: 5px;
     cursor: pointer;
@@ -108,6 +108,7 @@ h2 {
 .pizza-area {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
+    border-radius: 8px;
 }
 
 .pizza-item {
@@ -133,6 +134,11 @@ h2 {
     box-shadow:0px 10px 50px rgba(0, 0, 0, 0.2);
 }
 
+.pizza-item--img:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
 .pizza-item--img img {
     width:100%;
     height:auto;
@@ -143,17 +149,22 @@ h2 {
     height:50px;
     line-height:50px;
     border-radius:25px;
-    background-color:#d32f2f;
+    background-color:#00b7ff;
     text-align:center;
     color:#FFF;
     font-size:22px;
     cursor:pointer;
     margin-top:-25px;
     transition:all ease .2s;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    
 }
 
+
 .pizza-item a:hover .pizza-item--add {
-    background-color:#b71c1c;
+    background-color:#ffa4d8;
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
 .pizza-item--price {
@@ -259,6 +270,8 @@ h2 {
 
 .pizzaInfo--size:hover {
     background-color:#CCC;
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
 .pizzaInfo--size.selected {
